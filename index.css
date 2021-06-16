@@ -1,0 +1,422 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-MediumItalic.eot');
+    src: local('Graphik LCG Medium Italic'), local('GraphikLCG-MediumItalic'), url('fonts/GraphikLCG-MediumItalic.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-MediumItalic.woff2') format('woff2'), url('fonts/GraphikLCG-MediumItalic.woff') format('woff'), url('fonts/GraphikLCG-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-SuperItalic.eot');
+    src: local('Graphik LCG Super Italic'), local('GraphikLCG-SuperItalic'), url('fonts/GraphikLCG-SuperItalic.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-SuperItalic.woff2') format('woff2'), url('fonts/GraphikLCG-SuperItalic.woff') format('woff'), url('fonts/GraphikLCG-SuperItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-SemiboldItalic.eot');
+    src: local('Graphik LCG Semibold Italic'), local('GraphikLCG-SemiboldItalic'), url('fonts/GraphikLCG-SemiboldItalic.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-SemiboldItalic.woff2') format('woff2'), url('fonts/GraphikLCG-SemiboldItalic.woff') format('woff'), url('fonts/GraphikLCG-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-Black.eot');
+    src: local('Graphik LCG Black'), local('GraphikLCG-Black'), url('fonts/GraphikLCG-Black.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-Black.woff2') format('woff2'), url('fonts/GraphikLCG-Black.woff') format('woff'), url('fonts/GraphikLCG-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-Super.eot');
+    src: local('Graphik LCG Super'), local('GraphikLCG-Super'), url('fonts/GraphikLCG-Super.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-Super.woff2') format('woff2'), url('fonts/GraphikLCG-Super.woff') format('woff'), url('fonts/GraphikLCG-Super.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-Thin.eot');
+    src: local('Graphik LCG Thin'), local('GraphikLCG-Thin'), url('fonts/GraphikLCG-Thin.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-Thin.woff2') format('woff2'), url('fonts/GraphikLCG-Thin.woff') format('woff'), url('fonts/GraphikLCG-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-ExtralightItalic.eot');
+    src: local('Graphik LCG Extralight Italic'), local('GraphikLCG-ExtralightItalic'), url('fonts/GraphikLCG-ExtralightItalic.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-ExtralightItalic.woff2') format('woff2'), url('fonts/GraphikLCG-ExtralightItalic.woff') format('woff'), url('fonts/GraphikLCG-ExtralightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-Regular.eot');
+    src: local('Graphik LCG Regular'), local('GraphikLCG-Regular'), url('fonts/GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-Regular.woff2') format('woff2'), url('fonts/GraphikLCG-Regular.woff') format('woff'), url('fonts/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-BoldItalic.eot');
+    src: local('Graphik LCG Bold Italic'), local('GraphikLCG-BoldItalic'), url('fonts/GraphikLCG-BoldItalic.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-BoldItalic.woff2') format('woff2'), url('fonts/GraphikLCG-BoldItalic.woff') format('woff'), url('fonts/GraphikLCG-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-LightItalic.eot');
+    src: local('Graphik LCG Light Italic'), local('GraphikLCG-LightItalic'), url('fonts/GraphikLCG-LightItalic.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-LightItalic.woff2') format('woff2'), url('fonts/GraphikLCG-LightItalic.woff') format('woff'), url('fonts/GraphikLCG-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-BlackItalic.eot');
+    src: local('Graphik LCG Black Italic'), local('GraphikLCG-BlackItalic'), url('fonts/GraphikLCG-BlackItalic.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-BlackItalic.woff2') format('woff2'), url('fonts/GraphikLCG-BlackItalic.woff') format('woff'), url('fonts/GraphikLCG-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-Medium.eot');
+    src: local('Graphik LCG Medium'), local('GraphikLCG-Medium'), url('fonts/GraphikLCG-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-Medium.woff2') format('woff2'), url('fonts/GraphikLCG-Medium.woff') format('woff'), url('fonts/GraphikLCG-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-Light.eot');
+    src: local('Graphik LCG Light'), local('GraphikLCG-Light'), url('fonts/GraphikLCG-Light.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-Light.woff2') format('woff2'), url('fonts/GraphikLCG-Light.woff') format('woff'), url('fonts/GraphikLCG-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-Semibold.eot');
+    src: local('Graphik LCG Semibold'), local('GraphikLCG-Semibold'), url('fonts/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-Semibold.woff2') format('woff2'), url('fonts/GraphikLCG-Semibold.woff') format('woff'), url('fonts/GraphikLCG-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-Bold.eot');
+    src: local('Graphik LCG Bold'), local('GraphikLCG-Bold'), url('fonts/GraphikLCG-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-Bold.woff2') format('woff2'), url('fonts/GraphikLCG-Bold.woff') format('woff'), url('fonts/GraphikLCG-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-Extralight.eot');
+    src: local('Graphik LCG Extralight'), local('GraphikLCG-Extralight'), url('fonts/GraphikLCG-Extralight.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-Extralight.woff2') format('woff2'), url('fonts/GraphikLCG-Extralight.woff') format('woff'), url('fonts/GraphikLCG-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-ThinItalic.eot');
+    src: local('Graphik LCG Thin Italic'), local('GraphikLCG-ThinItalic'), url('fonts/GraphikLCG-ThinItalic.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-ThinItalic.woff2') format('woff2'), url('fonts/GraphikLCG-ThinItalic.woff') format('woff'), url('fonts/GraphikLCG-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/GraphikLCG-RegularItalic.eot');
+    src: local('Graphik LCG Regular Italic'), local('GraphikLCG-RegularItalic'), url('fonts/GraphikLCG-RegularItalic.eot?#iefix') format('embedded-opentype'), url('fonts/GraphikLCG-RegularItalic.woff2') format('woff2'), url('fonts/GraphikLCG-RegularItalic.woff') format('woff'), url('fonts/GraphikLCG-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+table {
+    border: none !important;
+}
+
+
+
+.page {
+  font-family: "Graphik LCG", Arial, sans-serif;
+   margin: 0 auto;
+ background: #142040;
+ }
+
+ .page__form {
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+width: 625px;
+-webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+-webkit-box-pack: justify;
+-webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+ }
+
+
+ .page__label {
+     margin: 0;
+     padding: 0;
+     position: relative;
+ }
+
+ .page__header {
+  margin: 0;
+  font-style: normal;
+  font-style: normal;
+  margin-left: -25px;
+font-weight: 600;
+font-size: 30px;
+line-height: 150%;
+letter-spacing: 0.01em;
+  background: -o-linear-gradient( 
+279.1deg
+, #c3a882 -11.53%, #7685aa 115.55%);
+  background: linear-gradient( 
+170.9deg
+, #c3a882 -11.53%, #7685aa 115.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+ 
+
+ .page__wrap {
+  width: 50%;
+ padding-left: 85px;
+  padding-top: 60px;
+  padding-bottom: 37px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: start;
+          align-items: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+
+ .page__qr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* margin-top: 20px; */
+ }
+
+ .page_hidden-visible {
+     display: none;
+ }
+
+ .open {
+     display: block;
+ }
+
+
+.page__input {
+  -webkit-appearance: none;
+  height: 60px;
+  padding-left: 30px;
+  width: 300px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: left;
+  letter-spacing: 0.03em;
+  border: 1px solid #5A6379;
+  color: #FFFFFF;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  -webkit-border-radius: initial;
+          border-radius: initial;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent;
+  margin-bottom: 25px;
+  outline: none!important;
+}
+
+.page__input::-webkit-input-placeholder {
+  color: #FFFFFF;
+  opacity: 0.5;
+  text-align: left;
+}
+
+.page__input::-moz-placeholder {
+  color: #FFFFFF;
+  opacity: 0.5;
+  text-align: left;
+}
+
+.page__input:-ms-input-placeholder {
+  color: #FFFFFF;
+  opacity: 0.5;
+  text-align: left;
+}
+
+.page__input::-ms-input-placeholder {
+  color: #FFFFFF;
+  opacity: 0.5;
+  text-align: left;
+}
+
+.page__input::placeholder {
+  color: #FFFFFF;
+  opacity: 0.5;
+  text-align: left;
+}
+
+.form__politic {
+  margin: 0;
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-top: 25px;
+}
+
+.form__link-politic {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.form__link-politic:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+
+.form__button-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+.form__item_mar {
+  margin-right: 25px;
+}
+
+
+.form__button_copy {
+  display: none;
+  /* margin-top: 20px; */
+  margin-right: 25px;
+
+}
+
+.form__button_oth {
+  /* margin-top: 20px; */
+  margin-right: 25px;
+
+}
+
+
+.open {
+  display: block;
+}
+
+
+
+td {
+  width: 3px!important;
+  height: 3px!important;
+}
+
+.form__error {
+  display: block;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #dd2a2a;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.page__image {
+  width: 50%;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1042px;
+  height: 100vh;
+}
+
+
+.form__error_hidden {
+display: none;
+}
+
+.page__border {
+  border: 1px solid #dd2a2a;
+}
+
+.text-center {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: white; */
+}
+
+.back {
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+.page__content {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+.page__image {
+  width: 40%;
+}
+
+.page__wrap {
+  width: 60%;
+}
+}

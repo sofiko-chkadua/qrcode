@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR CODE — Nedvex</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="select.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body class="page">
+
+
+    <div class="page__content" id="app">
+<div class="page__wrap">
+        <h1 class="page__header">Создание QR кода <br>для договора бронирования</h1>
+
+
+        <div class="page__wrapper">
+            <div class="form__par"><span class="form__num">1.</span>Выберите место работы</div>
+            <form class="form__body">
+                <div class="form__item form__item_mar">
+                    <div class="form__label"></div>
+                    <select name="post" class="form__select" required>
+                        <option class="test" value="hide">Объект не выбран</option>
+                        <option value="Волна">Волна</option>
+                        <option value="Морская Симфония 2">Морская Симфония 2</option>
+                        <option value="Моне">Моне</option>
+                        <option value="Атриум Авеню">Атриум Авеню</option>
+                        <option value="Горка">Горка</option>
+                        <option value="Лучезарный">Лучезарный</option>
+                        <option value="Прибрежный">Прибрежный</option>
+                        <option value="Art">Art</option>
+                        <option value="Сидней">Сидней</option>
+                        <option value="Троицкий">Троицкий</option>
+                        <option value="Gold Loft park">Gold Loft park</option>
+                        <option value="Loft Park">Loft Park</option>
+                        <option value="Paradise">Paradise</option>
+                        <option value="Александрит">Александрит</option>
+                        <option value="Атлас">Атлас</option>
+                        <option value="Капри">Капри</option>
+                        <option value="Крокус Парк">Крокус Парк</option>
+                        <option value="Grand Royal">Grand Royal</option>
+                        <option value="Каталея">Каталея</option>
+                        <option value="Монтевиль">Монтевиль</option>
+                        <option value="Diamond">Diamond</option>
+                        <option value="Кросс Лофт">Кросс Лофт</option>
+                        <option value="Морской Квартал">Морской Квартал</option>
+                    </select>
+                </div>
+                <button disabled class="form__button">ВЫБРАТЬ</button>
+            </form>
+            <div class="page_hidden-visible">
+                <div class="form__par"><span class="form__num">2.</span>Введите данные клиента</div>
+                <form id="form" class="page__form">
+                    <label class="page__label">
+                        <input required type="text" class="only_num page__input i-1"
+                            placeholder="Номер договора"></label>
+                    <label class="page__label">
+                        <input onkeypress="noDigits(event)" required type="text" class="page__input i-3" placeholder="Имя"></label>
+                    <label class="page__label">
+                        <input required id="date" type="text" class=" page__input i-6"
+                            placeholder="Дата договора"></label>
+                    <label class="page__label">
+                      <input onkeypress="noDigits(event)" required type="text" class="page__input i-2" placeholder="Фамилия"></label>
+                    <label class="page__label">
+             <input required type="text" class="page__input only_num i-5"
+                            placeholder="Сумма"></label>
+                    <label class="page__label">
+                    <input onkeypress="noDigits(event)" required type="text" class="page__input i-4"
+                            placeholder="Отчество"></label>
+                </form>
+
+                <div class="form__button-wrapper">
+                    <form class="form__button-form">
+                        <button type="submit" class="form__button form__button_oth" id="generateQRCode" disabled>СОЗДАТЬ QR-КОД</button>
+                        <p class="form__politic">Отправляя свои данные, вы соглашаетесь<br> с&nbsp;<a
+                                href="https://nedvex.ru/privacy" target=_blank
+                                class="form__link-politic">политикой&nbsp;конфиденциальности</a></p>
+                    </form>
+                    <button id="demo" class="form__button form__button_copy downloadtable"
+                        onclick="downloadtable()">СКАЧАТЬ QR-КОД</button>
+
+                    <div class="page__qr">
+                        <div id="qrCodeOutput" class="text-center">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    </div>
+</div>
+    <div class="page__image"></div>
+</div>
+
+    <script src="https://cosmic.mearie.org/2011/01/qrjs/qr.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <script src="jquery.maskedinput.min.js"></script>
+    <script src="select.js"></script>
+    <script src="qr.js"></script>
+</body>
+
+</html>
